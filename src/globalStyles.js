@@ -53,6 +53,20 @@ const GlobalStyle = createGlobalStyle`
         }
     }
 
+    footer {
+        position: absolute;
+        bottom:5px;
+        text-align:center;
+        left:0;
+        right:0;
+
+        a {
+            color: var(--color-very-dark-magenta);
+            text-decoration:none;
+            font-weight: 700;
+        }
+    }
+
 `;
  
 export default GlobalStyle;
