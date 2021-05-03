@@ -9,7 +9,7 @@ export function Rates(props) {
                 <WrapperStars>
                      {
                          [...Array(5).keys()].map((star) => (
-                            <Star key={star} />
+                            <Star key={star} alt={star + "star"} />
                          ))
                      }
                     
@@ -21,7 +21,7 @@ export function Rates(props) {
                     <WrapperStars>
                         {
                             [...Array(5).keys()].map((star) => (
-                                <Star key={star} />
+                                <Star key={star} alt={star + "star"} />
                             ))
                         }
                         
@@ -34,7 +34,7 @@ export function Rates(props) {
                     <WrapperStars>
                         {
                             [...Array(5).keys()].map((star) => (
-                                <Star key={star} />
+                                <Star key={star} alt={star + "star"} />
                             ))
                         }
                         
