@@ -2,6 +2,8 @@ import { createGlobalStyle } from 'styled-components';
 import { device } from './utils/breakpoints';
 import DesktopTopPattern from './assets/images/bg-pattern-top-desktop.svg';
 import DesktopBottomPattern from './assets/images/bg-pattern-bottom-desktop.svg';
+import MobileTopPattern from './assets/images/bg-pattern-top-mobile.svg';
+import MobileBottomPattern from './assets/images/bg-pattern-bottom-desktop.svg';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -48,10 +50,11 @@ const GlobalStyle = createGlobalStyle`
         display:flex;
         flex-direction:column;
         overflow-x:hidden;
-        background: url(${DesktopTopPattern}) no-repeat top left, url(${DesktopBottomPattern}) no-repeat bottom right;
+        background: url(${MobileTopPattern}) no-repeat top left;
         @media ${device.tabletL} { 
 
             padding:2rem 2rem 5rem 2rem;
+            background: url(${DesktopTopPattern}) no-repeat top left, url(${DesktopBottomPattern}) no-repeat bottom right;
 
         }
     }
