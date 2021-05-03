@@ -43,7 +43,7 @@ export default function Cards() {
                     <Card key={i + fullname} {...options}>
                         <CardHeader>
                             <CardAuthor>
-                                <img src={image} alt="colton" alt={fullname}/>
+                                <img src={image} alt={fullname}/>
                             </CardAuthor>
                             <CardAuthorInfo>
                                 <p className="name">{fullname}</p>
