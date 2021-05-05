@@ -16,7 +16,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [here](ttps://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/reactjs-styledcomponents-rC82HLxbG)
 - Live Site URL: [here](https://csimomelian.github.io/social-proof-section/)
 
 
